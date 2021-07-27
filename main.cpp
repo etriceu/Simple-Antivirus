@@ -8,8 +8,8 @@ using namespace std;
 
 struct Signature
 {
-    __int128 hash;
-    string name;
+	__int128 hash;
+	string name;
 };
 
 map <size_t, deque <Signature>> signs;
@@ -73,8 +73,8 @@ int main(int argc, char** argv)
 	}
 
 	file.seekg(0, file.end);
-    size_t size = file.tellg();
-    file.seekg (0, file.beg);
+	size_t size = file.tellg();
+	file.seekg (0, file.beg);
 	char *buf = new char[size];
 	file.read(buf, size);
 
