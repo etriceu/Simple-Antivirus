@@ -1,5 +1,5 @@
 # Simple-Antivirus
-A very simple and shitty virus scanner called "Sweet Revange" 😂
+A very simple and shitty virus scanner called "Sweet Revenge" 😂
 
 # Build
 ```g++ main.cpp -o main -o3 -lcrypto -fopenmp```
