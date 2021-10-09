@@ -2,7 +2,7 @@
 A very simple and shitty virus scanner called "Sweet Revenge" 😂
 
 # Build
-```g++ main.cpp -o main -o3 -lcrypto -fopenmp```
+```g++ main.cpp -o main -O3 -lcrypto -fopenmp```
 
 # Usage
 ```main [file]```
