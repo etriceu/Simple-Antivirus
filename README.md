@@ -1,15 +1,12 @@
 # Simple-Antivirus
-A very simple and shitty virus scanner called "Sweet Revenge" 😂
-
-# Build
-```g++ main.cpp -o main -O3 -lcrypto -fopenmp```
+A very simple and shitty virus scanner.
 
 # Usage
-```main [file]```
+```antiVir [file]```
 
 Example:
 
-```main infected```
+```antiVir infected```
   
 # Info
 The infected file is a real virus that I found on github (I don't remember where).
